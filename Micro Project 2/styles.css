@@ -63,20 +63,26 @@ header button {
   margin-bottom: 3px;
 }
 
-.nav_links button {
+.nav_links input[type="text"] {
   border-radius: 20px;
   border: none;
   width: 200px;
   color: #9f9f9f;
   height: 33px;
-  text-align: left;
   padding: 8px;
+  position: relative;
+}
+
+.pos-rel {
+  position: relative;
 }
 
 .search-img {
   height: 12px;
-  float: right;
   margin: 2px;
+  position: absolute;
+  top: 8px;
+  right: 30px;
 }
 
 .menu-img {
